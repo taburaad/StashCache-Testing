@@ -12,3 +12,5 @@ Future plans:
 -Running 1k+ jobs which are set to start at a time between 0 seconds and 1 hour. This would test whether servers are being overloaded by being hit with all jobs at once, thus putting jobs in a queue possibly leading to timeouts.
 
 -Directing jobs at particular servers
+
+-This: https://github.com/opensciencegrid/StashCache/blob/master/explanation.md#known-issues-and-concerns
