@@ -9,6 +9,7 @@
     rm -f 2gb_file.tar
  
    
+    xrdcp --version
     echo "starting stashcp"
     START=$(date +%s)
     stashcp --closest 
