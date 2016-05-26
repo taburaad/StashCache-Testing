@@ -14,3 +14,6 @@ Future plans:
 -Directing jobs at particular servers
 
 -This: https://github.com/opensciencegrid/StashCache/blob/master/explanation.md#known-issues-and-concerns
+
+
+Testing summary: https://docs.google.com/presentation/d/1tV3JKAIO0ReSeht8ULtCMqVuw_2laTEp4-iSPJjD8UA/edit?usp=sharing
