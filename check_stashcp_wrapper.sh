@@ -8,8 +8,9 @@
     #ls -l 2gb_file.tar  
     #rm -f 2gb_file.tar
  
-    echo "sleep for" $(( RANDOM % (10 - 5 + 1 ) + 5 )) "seconds"
-    sleep $(( RANDOM % (1800 + 1 ) ))
+    t=$(( RANDOM % (1800 + 1 ) ))
+    echo "sleep for" $t "seconds"
+    sleep $t
     
     xrdcp --version
 
