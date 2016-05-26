@@ -6,8 +6,8 @@ when_to_transfer_output = ON_EXIT
 requirements = (CVMFS_oasis_opensciencegrid_org_REVISION >= 4000)
 +WantsStashCache = true
 
-output = output/job.$(Cluster).$(Process).out
-error = output/job.$(Cluster).$(Process).err
-log = output/job.$(Cluster).$(Process).log
+output = output2/job.$(Cluster).$(Process).out
+error = output2/job.$(Cluster).$(Process).err
+log = output2/job.$(Cluster).$(Process).log
 
-queue 10
+queue 1000
