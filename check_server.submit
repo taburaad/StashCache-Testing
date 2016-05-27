@@ -1,0 +1,13 @@
+universe = vanilla
+
+executable = check_server.sh
+when_to_transfer_output = ON_EXIT
+
+requirements = (CVMFS_oasis_opensciencegrid_org_REVISION >= 4000)
++WantsStashCache = true
+
+output = outputserver/job.$(Cluster).$(Process).out
+error = outputserver/job.$(Cluster).$(Process).err
+log = outputserver/job.$(Cluster).$(Process).log
+
+queue 100
