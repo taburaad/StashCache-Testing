@@ -8,24 +8,24 @@
     #ls -l 2gb_file.tar  
     #rm -f 2gb_file.tar
  
-    t=$(( RANDOM % (1800 + 1 ) ))
-    echo "sleep for" $t "seconds"
-    sleep $t
+   # t=$(( RANDOM % (1800 + 1 ) ))
+    #echo "sleep for" $t "seconds"
+    #sleep $t
+    closest="$(stashcp --closest)"
+    l=" ${#closest}"
+    name=${closest: 0:l-1} 
     
     xrdcp --version
-
     echo "xrdcp time"
-    time xrdcp -d 2 -f user/taburaad/public/2gb_file.tar /dev/null
+    time xrdcp -d 2 -f $name:1094//user/taburaad/public/2gb_file.tar /dev/null
+    
     echo "starting stashcp"
-    #START=$(date +%s)
-    echo "closest server:"
-    stashcp --closest 
+    echo "Closest server is: " $closest
+    
     time stashcp -r  user/taburaad/public/2gb_file.tar .
 
     ls -l 2gb_file.tar  
     rm -f 2gb_file.tar 
-    #END=$(date +%s)
-    #DIFF=$(( $END - $START ))
-    #echo "StashCache took $DIFF seconds"
+ 
    
 
