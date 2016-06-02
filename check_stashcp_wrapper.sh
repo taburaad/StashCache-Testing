@@ -17,7 +17,7 @@
     
     xrdcp --version
     echo "xrdcp time"
-    time xrdcp -d 2 -f $name:1094//user/taburaad/public/2gb_file.tar /dev/null
+    time xrdcp -d 1 -f $name:1094//user/taburaad/public/2gb_file.tar /dev/null
     
     echo "starting stashcp"
     echo "Closest server is: " $closest
