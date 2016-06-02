@@ -1,0 +1,87 @@
+
+v4.2.2
+[2016-05-24 14:58:14.321772 -0700][Debug  ][Utility           ] CopyProcess: 2 jobs to prepare
+[2016-05-24 14:58:14.321898 -0700][Debug  ][Utility           ] Creating a classic copy job, from root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar to file://.///2gb_file.tar
+[2016-05-24 14:58:14.321931 -0700][Debug  ][Utility           ] Monitor library name not set. No monitoring
+[2016-05-24 14:58:14.321984 -0700][Debug  ][Utility           ] Opening root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar for reading
+[2016-05-24 14:58:14.322027 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending an open command
+[2016-05-24 14:58:14.322070 -0700][Debug  ][Poller            ] Available pollers: built-in
+[2016-05-24 14:58:14.322081 -0700][Debug  ][Poller            ] Attempting to create a poller according to preference: built-in,libevent
+[2016-05-24 14:58:14.322091 -0700][Debug  ][Poller            ] Creating poller: built-in
+[2016-05-24 14:58:14.322101 -0700][Debug  ][Poller            ] Creating and starting the built-in poller...
+[2016-05-24 14:58:14.322345 -0700][Debug  ][TaskMgr           ] Starting the task manager...
+[2016-05-24 14:58:14.322409 -0700][Debug  ][TaskMgr           ] Task manager started
+[2016-05-24 14:58:14.322434 -0700][Debug  ][JobMgr            ] Starting the job manager...
+[2016-05-24 14:58:14.322505 -0700][Debug  ][JobMgr            ] Job manager started, 3 workers
+[2016-05-24 14:58:14.322523 -0700][Debug  ][TaskMgr           ] Registering task: "FileTimer task" to be run at: [2016-05-24 14:58:14 -0700]
+[2016-05-24 14:58:14.322558 -0700][Debug  ][PostMaster        ] Creating new channel to: xrd-cache-1.t2.ucsd.edu:1094 1 stream(s)
+[2016-05-24 14:58:14.322587 -0700][Debug  ][PostMaster        ] [xrd-cache-1.t2.ucsd.edu:1094 #0] Stream parameters: Network Stack: IPAuto, Connection Window: 120, ConnectionRetry: 5, Stream Error Widnow: 1800
+[2016-05-24 14:58:14.323213 -0700][Debug  ][TaskMgr           ] Registering task: "TickGeneratorTask for: xrd-cache-1.t2.ucsd.edu:1094" to be run at: [2016-05-24 14:58:29 -0700]
+[2016-05-24 14:58:14.324475 -0700][Debug  ][PostMaster        ] [xrd-cache-1.t2.ucsd.edu:1094] Found 1 address(es): [::ffff:169.228.130.108]:1094
+[2016-05-24 14:58:14.324532 -0700][Debug  ][AsyncSock         ] [xrd-cache-1.t2.ucsd.edu:1094 #0.0] Attempting connection to [::ffff:169.228.130.108]:1094
+[2016-05-24 14:58:14.324575 -0700][Debug  ][Poller            ] Adding socket 0xd0e760 to the poller
+[2016-05-24 14:58:14.353213 -0700][Debug  ][AsyncSock         ] [xrd-cache-1.t2.ucsd.edu:1094 #0.0] Async connection call returned
+[2016-05-24 14:58:14.353255 -0700][Debug  ][XRootDTransport   ] [xrd-cache-1.t2.ucsd.edu:1094 #0.0] Sending out the initial hand shake + kXR_protocol
+[2016-05-24 14:58:14.381442 -0700][Debug  ][XRootDTransport   ] [xrd-cache-1.t2.ucsd.edu:1094 #0.0] Got the server hand shake response (type: server [], protocol version 300)
+[2016-05-24 14:58:14.381479 -0700][Debug  ][XRootDTransport   ] [xrd-cache-1.t2.ucsd.edu:1094 #0.0] kXR_protocol successful (type: server [], protocol version 300)
+[2016-05-24 14:58:14.383179 -0700][Debug  ][XRootDTransport   ] [xrd-cache-1.t2.ucsd.edu:1094 #0.0] Sending out kXR_login request, username: osgosg, cgi: ?xrd.cc=us&xrd.tz=-8&xrd.appname=xrdcp&xrd.info=&xrd.hostname=n0203, dual-stack: false, private IPv4: true, private IPv6: false
+[2016-05-24 14:58:14.411683 -0700][Debug  ][XRootDTransport   ] [xrd-cache-1.t2.ucsd.edu:1094 #0.0] Logged in, session: 6e000000830828002600000078000000
+[2016-05-24 14:58:14.411711 -0700][Debug  ][PostMaster        ] [xrd-cache-1.t2.ucsd.edu:1094 #0] Stream 0 connected.
+[2016-05-24 14:58:14.440013 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Open has returned with status [SUCCESS] 
+[2016-05-24 14:58:14.440034 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] successfully opened at xrd-cache-1.t2.ucsd.edu:1094, handle: 0x0, session id: 1
+[2016-05-24 14:58:14.440145 -0700][Debug  ][Utility           ] Opening .///2gb_file.tar for writing
+[2016-05-24 14:58:14.440613 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to xrd-cache-1.t2.ucsd.edu:1094
+[2016-05-24 14:58:14.441098 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to xrd-cache-1.t2.ucsd.edu:1094
+[2016-05-24 14:58:14.441550 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to xrd-cache-1.t2.ucsd.edu:1094
+[2016-05-24 14:58:14.442012 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to xrd-cache-1.t2.ucsd.edu:1094
+[2016-05-24 14:58:17.278631 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to xrd-cache-1.t2.ucsd.edu:1094
+[2016-05-24 14:58:19.248454 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to xrd-cache-1.t2.ucsd.edu:1094
+[2016-05-24 14:58:19.319204 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to xrd-cache-1.t2.ucsd.edu:1094
+[2016-05-24 14:58:19.343854 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to xrd-cache-1.t2.ucsd.edu:1094
+[2016-05-24 14:58:23.648315 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to xrd-cache-1.t2.ucsd.edu:1094
+[2016-05-24 14:58:36.669274 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to xrd-cache-1.t2.ucsd.edu:1094
+[2016-05-24 14:58:37.983219 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to xrd-cache-1.t2.ucsd.edu:1094
+[2016-05-24 14:58:38.007665 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to xrd-cache-1.t2.ucsd.edu:1094
+[2016-05-24 14:58:43.538354 -0700][Debug  ][File              ] [0xd08c60@root://xrd-cache-1.t2.ucsd.edu:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to xrd-cache-1.t2.ucsd.edu:1094
+/cvmfs/oasis.opensciencegrid.org/osg/modules/stashcp/2.6/bin/stashcp: line 77: 14986 Terminated              downloading_timeout.sh -t $seconds -d $diff -f $baseDir/$localPath -s $mySz xrdcp $xrdargs -f $sourcePrefix://$downloadFile $baseDir/$localPath
+/cvmfs/oasis.opensciencegrid.org/osg/modules/stashcp/2.6/bin/downloading_timeout.sh: line 45: exec: 2345: not found
+[2016-05-24 14:58:59.504065 -0700][Debug  ][Utility           ] CopyProcess: 2 jobs to prepare
+[2016-05-24 14:58:59.504208 -0700][Debug  ][Utility           ] Creating a classic copy job, from root://data.ci-connect.net:1094//user/taburaad/public/2gb_file.tar to file://.///2gb_file.tar
+[2016-05-24 14:58:59.504243 -0700][Debug  ][Utility           ] Monitor library name not set. No monitoring
+[2016-05-24 14:58:59.504297 -0700][Debug  ][Utility           ] Opening root://data.ci-connect.net:1094//user/taburaad/public/2gb_file.tar for reading
+[2016-05-24 14:58:59.504340 -0700][Debug  ][File              ] [0x1b94c80@root://data.ci-connect.net:1094//user/taburaad/public/2gb_file.tar] Sending an open command
+[2016-05-24 14:58:59.504383 -0700][Debug  ][Poller            ] Available pollers: built-in
+[2016-05-24 14:58:59.504393 -0700][Debug  ][Poller            ] Attempting to create a poller according to preference: built-in,libevent
+[2016-05-24 14:58:59.504403 -0700][Debug  ][Poller            ] Creating poller: built-in
+[2016-05-24 14:58:59.504414 -0700][Debug  ][Poller            ] Creating and starting the built-in poller...
+[2016-05-24 14:58:59.504607 -0700][Debug  ][TaskMgr           ] Starting the task manager...
+[2016-05-24 14:58:59.504657 -0700][Debug  ][TaskMgr           ] Task manager started
+[2016-05-24 14:58:59.504676 -0700][Debug  ][JobMgr            ] Starting the job manager...
+[2016-05-24 14:58:59.504756 -0700][Debug  ][JobMgr            ] Job manager started, 3 workers
+[2016-05-24 14:58:59.504776 -0700][Debug  ][TaskMgr           ] Registering task: "FileTimer task" to be run at: [2016-05-24 14:58:59 -0700]
+[2016-05-24 14:58:59.504812 -0700][Debug  ][PostMaster        ] Creating new channel to: data.ci-connect.net:1094 1 stream(s)
+[2016-05-24 14:58:59.504841 -0700][Debug  ][PostMaster        ] [data.ci-connect.net:1094 #0] Stream parameters: Network Stack: IPAuto, Connection Window: 120, ConnectionRetry: 5, Stream Error Widnow: 1800
+[2016-05-24 14:58:59.505478 -0700][Debug  ][TaskMgr           ] Registering task: "TickGeneratorTask for: data.ci-connect.net:1094" to be run at: [2016-05-24 14:59:14 -0700]
+[2016-05-24 14:58:59.506774 -0700][Debug  ][PostMaster        ] [data.ci-connect.net:1094] Found 1 address(es): [::ffff:192.170.227.7]:1094
+[2016-05-24 14:58:59.506809 -0700][Debug  ][AsyncSock         ] [data.ci-connect.net:1094 #0.0] Attempting connection to [::ffff:192.170.227.7]:1094
+[2016-05-24 14:58:59.506839 -0700][Debug  ][Poller            ] Adding socket 0x1b9a7f0 to the poller
+[2016-05-24 14:58:59.555541 -0700][Debug  ][AsyncSock         ] [data.ci-connect.net:1094 #0.0] Async connection call returned
+[2016-05-24 14:58:59.555626 -0700][Debug  ][XRootDTransport   ] [data.ci-connect.net:1094 #0.0] Sending out the initial hand shake + kXR_protocol
+[2016-05-24 14:58:59.604453 -0700][Debug  ][XRootDTransport   ] [data.ci-connect.net:1094 #0.0] Got the server hand shake response (type: server [], protocol version 300)
+[2016-05-24 14:58:59.604502 -0700][Debug  ][XRootDTransport   ] [data.ci-connect.net:1094 #0.0] kXR_protocol successful (type: server [], protocol version 300)
+[2016-05-24 14:58:59.606184 -0700][Debug  ][XRootDTransport   ] [data.ci-connect.net:1094 #0.0] Sending out kXR_login request, username: osgosg, cgi: ?xrd.cc=us&xrd.tz=-8&xrd.appname=xrdcp&xrd.info=&xrd.hostname=n0203, dual-stack: false, private IPv4: true, private IPv6: false
+[2016-05-24 14:58:59.656286 -0700][Debug  ][XRootDTransport   ] [data.ci-connect.net:1094 #0.0] Logged in, session: bb080000950c000020000000bb080000
+[2016-05-24 14:58:59.656333 -0700][Debug  ][PostMaster        ] [data.ci-connect.net:1094 #0] Stream 0 connected.
+[2016-05-24 14:58:59.705890 -0700][Debug  ][File              ] [0x1b94c80@root://data.ci-connect.net:1094//user/taburaad/public/2gb_file.tar] Open has returned with status [SUCCESS] 
+[2016-05-24 14:58:59.705928 -0700][Debug  ][File              ] [0x1b94c80@root://data.ci-connect.net:1094//user/taburaad/public/2gb_file.tar] successfully opened at data.ci-connect.net:1094, handle: 0x0, session id: 1
+[2016-05-24 14:58:59.706038 -0700][Debug  ][Utility           ] Opening .///2gb_file.tar for writing
+[2016-05-24 14:58:59.745009 -0700][Debug  ][File              ] [0x1b94c80@root://data.ci-connect.net:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to data.ci-connect.net:1094
+[2016-05-24 14:58:59.745536 -0700][Debug  ][File              ] [0x1b94c80@root://data.ci-connect.net:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to data.ci-connect.net:1094
+[2016-05-24 14:58:59.745985 -0700][Debug  ][File              ] [0x1b94c80@root://data.ci-connect.net:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to data.ci-connect.net:1094
+[2016-05-24 14:58:59.746550 -0700][Debug  ][File              ] [0x1b94c80@root://data.ci-connect.net:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to data.ci-connect.net:1094
+[2016-05-24 14:59:12.161597 -0700][Debug  ][File              ] [0x1b94c80@root://data.ci-connect.net:1094//user/taburaad/public/2gb_file.tar] Sending a read command for handle 0x0 to data.ci-connect.net:1094
+/cvmfs/oasis.opensciencegrid.org/osg/modules/stashcp/2.6/bin/stashcp: line 77: 16246 Terminated              downloading_timeout.sh -t $seconds -d $diff -f $baseDir/$localPath -s $mySz xrdcp $xrdargs -f $hn://$downloadFile $baseDir/$localPath
+
+real	1m1.394s
+user	0m0.620s
+sys	0m3.122s
