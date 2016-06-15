@@ -19,6 +19,6 @@ ls -l 2gb_file.tar
 rm -f 2gb_file.tar
 
 echo "CI"
-time xrdcp -d 1 -f root://data.ci-connect.net:1094//user/taburaad/public/2gb_file.tar .
+time xrdcp -d 1 -f root://data.ci-connect.net:1094//user/taburaad/public/2gb_file.tar /dev/null
 ls -l 2gb_file.tar
 rm -f 2gb_file.tar
